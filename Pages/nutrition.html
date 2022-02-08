@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Style/style.css">
+    <title>Nutrition</title>
+</head>
+<body>
+  <nav>     	
+    <label for="toggle">☰</label>
+    <input type="checkbox" id="toggle">
+    <div class="main_pages">
+      <a href="index.html"><img src="../Img/SantéPlus.png" alt="" srcset="" id="logo"></a>
+      <a href="#SectionImc">IMC</a>
+      <a href="#Conseils">Conseils de nutrition</a>
+    </div>
+</nav>
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../Img/black-woman-with-stethoscope.jpg" class="d-block w-100 image1" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../Img/nurse-measuring-patient-blood-pressure.jpg" class="d-block w-100 image2" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../Img/doctor-with-stethoscope-in-the-hands-and-hospital-background.jpg" class="d-block w-100 image3" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container">
+  
+<h1 class="text-success" style="text-align: center;" id="SectionImc">IMC</h1><hr class="text-success">
+<!-- <ul class="sommaire">
+  <a href="#norme"><li>Normes : qu'est-ce qu'un IMC normal ?</li></a>
+  <a href="#obese"><li>Quel IMC quand on est obèse ?</li></a>
+  <a href="#imc"><li>Je calcule mon IMC</li></a>
+</ul> -->
+<div class="def_Imc">
+  <article><h6 class="text-success"><i class="fas fa-play"></i> Introduction</h6>
+    <p>Kilos en trop ou pas ? Pour savoir si vous devez perdre du poids, calculez d'abord votre indice de masse corporelle ou IMC. L'IMC permet de savoir si notre poids est adapté à notre taille. Un IMC trop élevé peut révéler un surpoids voire une obésité. Trop bas, il peut indiquer qu'une personne est trop maigre. En complément de l'IMC, on peut aussi calculer son IMG : indice de masse grasse.</p>
+  </article>
+<article>  <h6 class="text-success"><i class="fas fa-play"></i> C'est quoi l'IMC ?</h6>
+  <p>Inventé dans les années 1840, l'indice de masse corporelle ou IMC permet de savoir si votre poids est idéal, autrement dit, s'il est adapté à votre taille. Cet indicateur est utilisé par les médecins pour évaluer l'état nutritionnel. Il permet ainsi de reconnaître une dénutrition, une maigreur, un surpoids ou une obésité. Le calcul de l'IMC, validé par l'OMS, repose sur une formule mathématique simple.</p></article>
+<article><h6 class="text-success"><i class="fas fa-play"></i> Quelle formule pour calculer son IMC ?</h6>
+  <p>L'indice de masse corporelle (IMC) permet d'estimer le poids idéal en fonction de la taille. Son calcul est simple : il correspond au poids divisé par le carré de la taille (IMC = poids en kg/taille² en m). Le chiffre obtenu permet d'estimer la corpulence et éventuellement le surpoids ou l'obésité chez l'adulte, homme ou femme.
+  </p></article>
+</div>
+<h6 class="text-success" id="norme"><i class="fas fa-play"></i> Normes : qu'est-ce qu'un IMC normal ?</h6>
+<p>Un IMC normal est compris entre 18,5 et 25. En dessous de 18,5, l'individu est considéré comme trop maigre. Au-dessus de 25, c'est du surpoids. A partir de 30, on parle d'obésité.</p>
+<p>
+<ul>
+  <li>IMC < 18,5 kg/m² : insuffisance pondérale</li>
+  <li>18,5 < IMC < 24,9 : poids normal</li>
+  <li>25 < IMC < 29,9 : surpoids</li>
+  <li>IMC > 30 : obésité</li>
+</ul>
+<img src="../Img/imc.jpeg" alt="" class="ImageImc"> <br>
+Pour un IMC égal ou supérieur à 25kg/m² et inférieur à 35kg/m², l'examen clinique devra être complété par la mesure du tour de taille. 
+<ul>
+  <li><b>IMC < 18,5 kg/m² :</b> insuffisance pondérale (maigreur)
+    Votre poids apparaît trop faible par rapport à votre taille. Ce faible indice de masse corporel (IMC) est peut-être la conséquence d'une pathologie, mais elle-même peut exposer à un certain nombre de risques pour votre santé (carences, anémie, ostéoporose...). Parlez-en avec votre médecin traitant. Il pourra rechercher la cause de cette maigreur et vous conseiller</li>
+  <li><b>18,5 < IMC < 24,9 :</b> poids normal
+    Votre poids est adapté à votre taille. Gardez vos habitudes alimentaires pour conserver un indice de masse corporel (IMC) idéal et un poids qui vous assure un état de santé optimal. Une alimentation équilibrée, sans excès de matières grasses, associée à une activité physique régulière vous aideront à maintenir votre poids idéal.</li>
+    <li><b>25 < IMC < 29,9 :</b> surpoids
+      Votre poids commence à devenir trop élevé par rapport à votre taille. A long terme, un indice de masse corporel (IMC) élevé a des conséquences sur la santé. L'excès de poids entraîne un risque accru de maladies métaboliques (diabète), cardiaques, respiratoires, articulaires et de cancer. Si vous souhaitez commencer un régime pour perdre du poids, parlez-en au préalable avec votre médecin traitant. Au-dessus de 30, l'indice de masse corporelle peut indiquer une obésité.</li>
+</ul>
+
+</p>
+
+<h6 class="text-success" id="obese"><i class="fas fa-play"></i> Quel IMC quand on est obèse ?</h6>
+<p>
+Votre poids est trop élevé par rapport à votre taille. Du point de vue médical, l'obésité est un excès de masse grasse ayant des conséquences sur la santé. L'excès de poids entraîne un risque accru de maladies métaboliques (diabète), cardiaques, respiratoires, articulaires et de cancer. Si vous souhaitez commencer un régime pour perdre du poids, parlez-en au préalable avec votre médecin traitant. A noter que la sévérité de l'obésité dépend de l'indice de masse corporelle (IMC) :
+<ul>
+  <li>obésité "modérée" pour un IMC compris entre 30 et 34,9,</li>
+  <li>obésité "sévère" lorsque l'IMC est compris entre 35 et 39,9</li>
+  <li>obésité "massive" pour un IMC au-dessus de 40.</li>
+</ul>
+<div class="bouton">
+  <button type="submit" class="btn btn-outline-success col-lg-4" id="imc">Cliquer pour calculer votre IMC</button>
+</div>
+
+<h1 class="text-success" style="text-align: center; margin-top: 100px;" id="Conseils">11 conseils indispensables avant de faire un régime</h1> <hr class="text-success">
+<h6 class="text-success" style="text-align: center;"></i> Introduction</h6>
+<p>Désormais, les professionnels de la nutrition parlent davantage de rééquilibrage alimentaire que de régime. Cet apprentissage du bien manger s'inscrit dans la durée, évite les privations et réapprend à manger avec plaisir. Les secrets d'une perte de poids saine et durable.</p>
+
+<ul class="ConseilNutrition">
+  <li><h6 class="text-success">Se fixer un objectif raisonnable : ne pas vouloir perdre plus de 5 kilos en un mois</h6>
+    <p>Vouloir perdre trop de kilos rapidement est le meilleur moyen d'en reprendre rapidement. La perte de poids doit s'inscrire dans la durée. "Se fixer un objectif raisonnable et procéder par palier est important pour éviter l'effet yoyo" assure Virginie Roux.</p></li>
+    <li><h6 class="text-success">Faire un choix dans ses aliments</h6>
+      <p>Aucun aliment n'est diabolique ni interdit. Pour perdre du poids ou éviter d'en prendre, il faut manger de tout en petite quantité à satiété. De manière générale, il faut diminuer les aliments ultra transformés et très riches (sucreries, gâteaux, plats préparés et en sauce, charcuteries…), diminuer la consommation de viande grasse et la remplacer par du poisson (2 à 3 fois par semaine), des œufs de qualité, du fromage (environ 30 g par jour). Les légumes doivent par ailleurs faire partie de chaque repas et doivent représenter dans l'idéal la moitié de l'assiette. "Il ne faut pas oublier les protéines végétales et penser à favoriser les fruits et légumes de saison, la diversité. Enfin, manger le plus possible bio et local, conseille la diététicienne-nutritionniste. Faire les bons choix dans son assiette c'est faire un geste pour sa santé mais aussi pour la planète."</p></li>
+      <li><h6 class="text-success">Manger en conscience</h6>
+        <p>Pour éviter de manger plus que nécessaire, il est important de manger sans faire autre chose, en faisant attention à son assiette. "Pensez à bien mastiquer pour augmenter la libération des saveurs et arômes et diminuer les troubles digestifs." La digestion commence dans la bouche, bien mastiquer aide à bien digérer. Cela prend aussi plus de temps, résultat quand les premiers signaux de satiété arrivent au cerveau, vous avez un peu moins mangé que si vous aviez avalé votre repas sans prendre le temps de mâcher.</p></li>
+        <li><h6 class="text-success">Augmenter les portions de fruits et légumes</h6>
+          <p>Pour rester en bonne santé, il est recommandé de manger au moins 5 portions de fruits et légumes par jour : à chaque repas. Pour vous faciliter la tâche, vous pouvez opter pour des fruits et légumes surgelés non préparés, en conserve, en soupe en vérifiant qu'ils ne contiennent aucun d'additif, et peu de sel… Attention toutefois, à ne pas en surconsommer. Comme le rappelle Virginie Roux, il est important "manger à satiété à chaque repas", cela évitera les grignotages intempestifs.</p></li>
+          <li><h6 class="text-success">Prendre un véritable petit-déjeuner</h6>
+            <p>Contrairement aux idées reçues, le petit-déjeuner n'est pas une obligation, il faut avant tout écouter sa faim, respecter ses sensations. "Si la faim n'est pas au rendez-vous, ce n'est pas grave, on peut prendre une collation un peu plus tard, soit prolonger le jeûne jusqu'au déjeuner. Si vous prenez un petit-déjeuner, il doit être composé de glucides (pain au levain de farine bis ou complète, flocons de céréales non sucrées,), de protéines (œuf, fromage) et des lipides de bonne qualité pour nourrir le cerveau".</p></li>
+            <li><h6 class="text-success">Faire ses courses après avoir mangé</h6>
+              <p>La faim appelle des aliments gras et sucrés. Pour éviter d'acheter des aliments caloriques et/ou à calories vides, il est préférable de faire les courses après avoir mangé. "Il est préférable de faire ses courses le ventre plein, conseille Virginie Roux. De préparer une liste de provisions et de s'y tenir."</p></li>
+              <li><h6 class="text-success">Eviter le grignotage entre les repas</h6>
+                <p>Le grignotage favorise la prise de poids. Mais comme le précise la diététicienne-nutritionniste, il convient de faire la différence grignotage et vraie collation : "Le grignotage est lorsque l'on mange alors que l'on n'a pas faim, explique Virginie Roux. La collation se fait quand la faim se fait ressentir en milieu de matinée ou d'après-midi." Une collation en fin d'après-midi peut éviter le grignotage d'avant dîner. Pour ne pas favoriser la prise de poids, la collation doit s'intégrer dans l'équilibre alimentaire de la journée et ne pas fournir de calories en excès. Le grignotage quant à lui doit être évité au maximum. Pour Virginie Roux, il est essentiel "d'écouter ses sensations".</p></li>
+                <li><h6 class="text-success">A toujours avoir dans son frigo et ses placards</h6>
+                  <p>Les aliments trop riches, trop gras, trop sucrés, ultra-transformés favorisent la prise de poids. En période de régime, mieux vaut éviter d'en avoir dans ses placards. Remplacez-les par des aliments de base rassasiants qui vous permettront de vous confectionner une collation ou un repas rapide et vous éviteront de piocher dans des aliments aux calories vides. Ayez toujours des œufs (pour vous faire rapidement une omelette, des œufs durs, ou un œuf à la coque), des fruits (à consommer avec une poignée d'oléagineux, ou un laitage en-cas), des légumes natures (surgelés, en conserves, soupes), des conserves de poissons au naturel (sardines, maquereau, thon), du pain complet tranché…</p></li>
+                <li><h6 class="text-success">Ne pas sauter de repas</h6>
+                  <p>Pour éviter les fringales qui peuvent pousser à consommer les mauvais aliments, mieux vaut faire 3 repas équilibrés par jour, en sortant de table en étant rassasiée. Toutefois la règle des trois repas par jour n'est pas une obligation absolue : sauter un repas parce que vous n'avez pas faim est tout à fait possible. A l'inverse, vous priver en pensant économiser quelques calories est une fausse bonne idée. Période de régime ou non, il est important de toujours écouter ses sensations de faim. A noter : "Dans le cas où une personne ne prend pas de petit-déjeuner par habitude ou parce qu'elle fait un jeûne intermittent par exemple, il faudra alors veiller à apporter tout ce dont le corps a besoin dans la journée" précise Virginie Roux.</p></li>
+                  <li><h6 class="text-success">Boire suffisamment</h6>
+                    <p>"Le corps utilise et perd de l'eau tout au long de la journée, rappelle la diététicienne-nutritionniste. Il faut donc compenser ces pertes." Il est recommandé de boire entre 1 et 1,5 litre par jour. Un peu plus en période de fortes chaleurs et si vous faites de l'activité physique, vous devez boire pour compenser la perte hydrique liée à cette activité.</p></li>
+                  <li><h6 class="text-success">Ne pas oublier l'activité sportive</h6>
+                    <p>La perte de poids se joue à la fois dans l'assiette et en pratiquant une activité physique : "Reprendre ou avoir une activité sportive régulière freine la prise de poids" assure Virginie Roux. Chacune y va à son rythme avec le sport qui lui convient, l'important est de bouger, 30 mn de marche active chaque jour est déjà un bon début.</p></li>
+</ul>
+
+</div>
+<div class="footer">
+  <div class="source"><a href="sante.journaldesfemmes.fr">Source</a></div>
+  <div class="derr">Copyright by Derrick</div>
+  <div class="nan">NaN 5.22</div>
+</div>
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="../Script/script.js"></script>
+</body>
+
+
+</html>

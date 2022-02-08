@@ -1,37 +1,17 @@
 .header{
-    background:url("../Img/black-woman-with-stethoscope.jpg");
-    background-size:cover;
-    height:610px;
+    height:510px;
 }
-
-.entete a, .logo{
-    color:#fff;
-    padding-inline: 20px;
-    font-size: 19px;
-    text-transform: uppercase;
-    font-weight: bold;
+body{
+    background-color: rgba(9, 95, 99, 0.1);
+    margin: 0 auto;
 }
-
-.entete{
-    background-color: rgba(9, 95, 99, 0.70);
-    display:flex;
-    justify-content: space-evenly;
-    width: 100%;
-    top: 0;
-    align-items: center;
-    position:sticky;
-}
-
-.entete a:hover{
-    color:#474748;
-}
+    
 .recherche{
     padding-top: 200px;
 }
 .maladies article, .nutrition article, .sexo-gyneco article{
-    width: 350px;
+    width: 300px;
     height:300px;
-    border-radius: 10px;
 }
 
 .maladies article p{
@@ -66,6 +46,17 @@
     justify-content:space-between;
     flex-wrap:nowrap;
     margin-bottom: 150px;   
+    background-color: rgba(9, 95, 99, 0.4);
+    padding: 50px;
+    box-shadow: inset 0 0 1em black;
+}
+.page-5
+{
+    display: none;
+}
+
+.ecran{
+    height: 700px;
 }
 
 #titre-1{
@@ -87,13 +78,288 @@
     display: flex;
     flex-direction:row;
     justify-content:space-evenly;
+    align-items: center;
+    color: white;
+}
+.footer a
+{
+    text-decoration: none;
+    color: white;
 }
 
 
 #logo{
-    width:150px;
+    width:250px;
 }
 
 h1{
     text-transform: uppercase;
+    font-size: 80px;
+}
+.Symptomes_sein{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.Symptomes_sein div{
+    width:400px;
+    padding:10px;
+    text-align: justify;
+    margin:10px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.Symptomes_sein div p{
+    font-size:13px;
+}
+
+.article_traitement{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.article_traitement div{
+    width:400px;
+    padding:10px;
+    text-align: justify;
+    margin:10px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.fa-chevron-circle-left, .fa-chevron-circle-right{
+    color: rgba(9, 95, 99, 0.9);
+    
+}
+
+.slick-prev, .slick-next{
+    border:none;
+    background-color: unset;
+}
+/* 
+@media screen and (max-width: 500px){
+    #logo{
+        width: 90px;
+    }
+
+    .entete a, .logo{
+        padding: inline 5px;
+        font-size: 13px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    
+} */
+*
+{
+    margin: 0;
+}
+
+nav 
+{
+    width: 100%;
+    height: 80px;
+    background: rgba(9, 95, 99, 0.9);
+}
+ 
+nav .main_pages 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ 
+nav .main_pages a 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+#logo
+{
+    width: 90px;
+}
+ 
+nav a:hover 
+{
+    color: black;
+}
+
+label
+{
+    display: none;
+}
+ 
+label, #toggle
+{
+    display: none;
+}
+
+@media all and (max-width: 1046px)
+{
+    nav
+    {
+        height: 60px;
+    }
+ 
+    nav .main_pages 
+    {
+        display: none;
+        flex-direction: column;
+        background: rgba(9, 95, 99, 0.9);
+        height: 220px;
+    }
+ 
+    nav .main_pages a {
+        width: 50%;
+    }
+ 
+    label 
+    {
+        transition: all 8s;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float:right;
+        margin-right: 20px;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+        text-align: justify;
+    }
+ 
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
+}
+
+.premierParagraphe
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.premierParagraphe article
+{
+    height: auto;
+    width: 700px;
+}
+
+.myo
+{
+    position: relative;
+}
+
+.myoImage
+{
+    width:80%;
+    margin-left: 15px;
+}
+
+.def p
+{
+    text-align: justify;
+}
+
+h6{
+    font-size: 28px;
+}
+
+.listeSymp, .hemorroFacteurs, .colitelist, .DysphagieCause, .ConseilNutrition, .SympCancer, .traitementCancer, .CausePeau, .SymptomesPeau
+{
+    column-count: 2;
+}
+
+.part, .Cause_traite, .symp_2, .coliteCause_Traitement, .def_Imc, .formes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.causeMyo,.traitementMyo,.guerison{
+    width: 400px;
+}
+
+.defPericardite
+{
+    display: flex;
+}
+
+.defPericardite article
+{
+    text-align: justify;
+    padding-right: 30px;
+}
+.defPericardite:first-child
+{
+    width: 60%;
+}
+
+.defPericardite .peri{
+    width: 300px;
+}
+
+.ConseilNutrition p
+{
+    text-align: justify;
+}
+
+.bouton
+{
+    position: relative;
+}
+
+.bouton #imc
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+.ImgPeau
+{
+    width: 350px;
+}
+
+.def_Imc p
+{
+    text-align: justify;
+    margin: auto 20px;
+}
+
+.sommaire
+{
+    display: flex;
+}
+.sommaire a
+{
+    color: rgba(9, 95, 99); 
+}
+
+.sommaire li
+{
+    list-style:circle;
+    margin-left: 20px;
+}
+
+.ImageImc
+{
+    width: 800px;
+}
+
+.SymptomesPeau
+{
+    list-style: none;
 }
